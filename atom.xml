@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://blog.xiongfei.vip</id>
+    <id>https://xsb0624.github.io</id>
     <title>熊飞的博客</title>
-    <updated>2020-07-25T09:35:36.903Z</updated>
+    <updated>2020-07-25T14:35:51.017Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://blog.xiongfei.vip"/>
-    <link rel="self" href="https://blog.xiongfei.vip/atom.xml"/>
+    <link rel="alternate" href="https://xsb0624.github.io"/>
+    <link rel="self" href="https://xsb0624.github.io/atom.xml"/>
     <subtitle>不愧是我！Superme!</subtitle>
-    <logo>https://blog.xiongfei.vip/images/avatar.png</logo>
-    <icon>https://blog.xiongfei.vip/favicon.ico</icon>
+    <logo>https://xsb0624.github.io/images/avatar.png</logo>
+    <icon>https://xsb0624.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 熊飞的博客</rights>
     <entry>
         <title type="html"><![CDATA[新闻联播 习近平 企业家]]></title>
-        <id>https://blog.xiongfei.vip/post/xin-wen-lian-bo-xi-jin-ping-qi-ye-jia/</id>
-        <link href="https://blog.xiongfei.vip/post/xin-wen-lian-bo-xi-jin-ping-qi-ye-jia/">
+        <id>https://xsb0624.github.io/post/xin-wen-lian-bo-xi-jin-ping-qi-ye-jia/</id>
+        <link href="https://xsb0624.github.io/post/xin-wen-lian-bo-xi-jin-ping-qi-ye-jia/">
         </link>
         <updated>2020-07-25T09:34:43.000Z</updated>
         <content type="html"><![CDATA[<p>开拓国内市场<br>
@@ -46,8 +46,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://blog.xiongfei.vip/post/hello-gridea/</id>
-        <link href="https://blog.xiongfei.vip/post/hello-gridea/">
+        <id>https://xsb0624.github.io/post/hello-gridea/</id>
+        <link href="https://xsb0624.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
