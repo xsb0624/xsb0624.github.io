@@ -39,10 +39,18 @@ if ([string]::IsNullOrWhiteSpace($status)) {
 }
 Write-Host ""
 
-# 3. 推送到 GitHub
+# 3. 推送到 GitHub (网络不稳定时自动重试)
 Write-Host "[3/3] 正在上传到 GitHub ..." -ForegroundColor Yellow
-git push origin main
-if ($LASTEXITCODE -ne 0) {
+$pushed = $false
+for ($i = 1; $i -le 5; $i++) {
+    if ($i -gt 1) {
+        Write-Host "  网络波动, 第 $i 次重试 ..." -ForegroundColor Yellow
+        Start-Sleep -Seconds 10
+    }
+    git push origin main 2>$null
+    if ($LASTEXITCODE -eq 0) { $pushed = $true; break }
+}
+if (-not $pushed) {
     Write-Host ""
     Write-Host "上传失败(网络可能不稳定), 请稍后重新运行本脚本。" -ForegroundColor Red
     Read-Host "按回车键关闭"
