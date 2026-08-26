@@ -8,6 +8,14 @@ enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = false
 
+# 将 Obsidian 粘贴的图片目录 images/ 挂载为静态资源
+# (图片保存在 images/xxx.png, 线上通过 /images/xxx.png 访问)
+[module]
+  [[module.mounts]]
+    source = "images"
+    target = "static/images"
+
+
 [params]
   env = "production"
   title = "我的博客"
